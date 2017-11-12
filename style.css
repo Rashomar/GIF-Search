@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #0aa;
+}
+h1{
+	color:pink;
+	font-family: Monoton;
+	font-size: 4rem;
+}
+img{
+	height: 150px;
+	max-width: 100%;
+	margin:5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 3px #DC143C;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 766px) {
+  h1{
+  	font-size: 3rem;
+  }
+}
+@media (max-width: 575px) {
+  h1{
+  	font-size: 2rem;
+  }
+}
