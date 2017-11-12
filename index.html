@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Search GIFs</title>
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 class="text-center mt-3">Search GIFs</h1>
+		<div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-10">
+            <div class="form-group">
+                <div class="input-group">
+                  <input type="text" id="val" class="form-control" placeholder="Enter a search term">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="form-group">
+                <button id="search" class="btn btn-success mb-1">Search</button>
+                <button id="remove" class="btn btn-danger mb-1">Remove all GIFs</button>
+            </div>
+        </div>
+    </div>
+
+	<div id="container-image" class="row text-center">
+		</div>
+	</div>
+
+<script src="script.js"></script>
+</body>
+</html>
